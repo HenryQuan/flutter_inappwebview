@@ -215,7 +215,7 @@ public class WebMessageListener : FlutterMethodCallDelegate {
     }
 
     public func dispose() {
-        channel?.setMethodCallHandler(nil)
+        // channel?.setMethodCallHandler(nil)
         channel = nil
         webView = nil
     }
